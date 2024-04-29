@@ -19,10 +19,27 @@ Response, graceful shutdown)
 - [ ]  Support for Ethereum
 
 ## Demo of a Basic System
+I will demo a project with this structure with MVP: Chat system like Chat GPT
+- [X] Support standard authentication functions (Sign In, Sign Up, Change Password, Get Profile)
+- [X] Support admin functions : Get all users, Block IP, Upgrade role, Rate Limit
+- [X] Support full-text search using ES's API - search message for user
+- [X] Support post notifications for user - example Crypto currency like BTC, ETH, BNB with use Kafka 
+- [X] API documentations 
+- [X] Export Postman file
 
+
+## Prerequisites
+```
+# must run
+Python 3.11.4
+python3 -m venv venv
+source venv/bin/active
+
+# For dev
+make install
+make run
+
+# for deploy
 
 ```
-## Prerequisites
-- Go version 1.18
-
 ### Thanks for visting me
