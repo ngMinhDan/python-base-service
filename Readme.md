@@ -27,7 +27,6 @@ I will demo a project with this structure with MVP: Chat system like Chat GPT
 - [X] API documentations 
 - [X] Export Postman file
 
-
 ## Prerequisites
 ```
 # must run
@@ -42,4 +41,21 @@ make run
 # for deploy
 
 ```
-### Thanks for visting me
+## PEP8 conventions
+This repo folow set of conventions of naming classes, attributes, methods, packages, files in PEP8
+1. Classes : CamelCase convention, example : **MyClass**
+
+2. Attributes (Instance Variables) and methods: lowecase words separated by underscores - snake_case, example: **my_attribute** or **my_method()**
+
+3. Packages and Modules(Files): Keep package and module names to a single word if possible, example: **mypacakage or my_module, time ...**
+
+4. Function, variable name: Function name should be lowercase, snake_case: **my_function(), my_variable**
+
+5. Constants: **MY_CONSTANT**
+
+[Read more]("https://realpython.com/python-pep8/) 
+
+---
+I was inspired by the repository : [fastapi-best-practices]("https://github.com/zhanymkanov/fastapi-best-practices")
+
+#### Thanks for visting me, If you think this is helpful repo, give me a star :3
